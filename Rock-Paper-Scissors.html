@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style/container.css">
     <link rel="stylesheet" href="style/ui.css">
     <link rel="stylesheet" href="style/visible.css">
-
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=0.3, maxmum-scale=1.0, minimum-scale=0.3">
 </head>
 
 <body>
@@ -39,7 +39,7 @@
         function playGame(playmove) {
             const computerMove = pickComputerMove();
             let result = '';
-            
+
             if (playmove === 'rock') {
                 if (computerMove === 'rock') {
                     result = 'You Tie.';
